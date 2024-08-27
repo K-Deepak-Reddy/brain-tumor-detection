@@ -24,7 +24,7 @@ app.use((req,res,next) => {
 
 let db = async () => { 
     try{ 
-        await mongoose.connect("mongodb+srv://Deepak:deepakreddy7842@cluster0.ena8zuf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
+        await mongoose.connect("DBURI");
         
         console.log(" connected to database");
     }
